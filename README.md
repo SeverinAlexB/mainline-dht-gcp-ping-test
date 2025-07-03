@@ -2,10 +2,10 @@
 
 This repository provides the results of a ping test to a list of IP:PORT addresses of [Mainline DHT nodes](https://en.wikipedia.org/wiki/Mainline_DHT). The ping is a simple UDP packet sent to a node that should return a UDP pong. This way, it can measure how well a server is connected to the wider Mainline DHT.
 
-[mainline-dht-ping.sh](./mainline-dht-ping.sh) is the main script to [mainline ping](https://www.bittorrent.org/beps/bep_0005.html#ping) nodes in the mainline DHT. It uses netcat to send a simple UDP ping packet.
+[mainline-dht-ping.sh](./mainline-dht-ping.sh) is the script to [ping](https://www.bittorrent.org/beps/bep_0005.html#ping) nodes in the DHT. It uses netcat to send a simple UDP ping packet.
 
 ```bash
-./mainline-dht-ping.sh mainline-ips-03-07-2025.txt
+./mainline-dht-ping.sh test-03-7-2025/ip-list.txt
 ```
 
 A [list](./test-03-7-2025/ip-list.txt) of 838 IP:PORT combinations of DHT nodes has been made at the 3rd of July 2025 to conduct this test.
