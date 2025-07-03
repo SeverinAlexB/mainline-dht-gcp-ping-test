@@ -1,6 +1,6 @@
 # mainline-dht-gcp-ping-test
 
-This repository provides the results of a  a tool to ping a list of IP:PORT addresses of mainline DHT nodes. This way, it can measure how well a server is connceted to the wider Mainline DHT.
+This repository provides the results of a ping a list of IP:PORT addresses of mainline DHT nodes. This way, it can measure how well a server is connceted to the wider Mainline DHT.
 
 [mainline-dht-ping.sh](./mainline-dht-ping.sh) is the main script to [ping](https://www.bittorrent.org/beps/bep_0005.html#ping) nodes in the mainline DHT.
 
