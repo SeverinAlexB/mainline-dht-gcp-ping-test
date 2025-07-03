@@ -86,3 +86,10 @@ Ping:
 726 out of 838 socket addresses responded successfully.
 Success rate: 86.63%
 ```
+
+
+## IP List
+
+The [provided IP list](./mainline-ips-03-07-2025.txt) was created with the help of [pubky/mainline](https://github.com/pubky/mainline) on the 3rd of July 2025. Individual DHT nodes go offline ocassionally and the provided IP list may need to be refreshed after a while.
+
+Nonetheless, the stark success rate contrast between GCP (0.35%) and the other listed cloud services (~85%) is immense.
