@@ -12,7 +12,7 @@ if [ ! -f "$IP_FILE" ]; then
   exit 1
 fi
 
-PACKET="d1:ad2:id20:abcdefghij0123456789e1:q4:ping1:t2:aa1:y1:qe"
+PING_PACKET="d1:ad2:id20:abcdefghij0123456789e1:q4:ping1:t2:aa1:y1:qe"
 
 # Count only non-empty lines
 total=0
@@ -33,7 +33,7 @@ ping_address() {
   local ip=$(echo "$ip_port" | cut -d':' -f1)
   local port=$(echo "$ip_port" | cut -d':' -f2)
 
-  response=$(echo -n "$PACKET" | nc -u -w2 "$ip" "$port" 2>/dev/null)
+  response=$(echo -n "$PING_PACKET" | nc -u -w2 "$ip" "$port" 2>/dev/null)
 
   if [ -n "$response" ]; then
     echo "- $ip:$port - Pong success"
