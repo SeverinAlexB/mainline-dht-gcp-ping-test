@@ -8,9 +8,11 @@ This repository provides the results of a ping test to a list of IP:PORT address
 ./mainline-dht-ping.sh mainline-ips-03-07-2025.txt
 ```
 
+A [list](./test-03-7-2025/ip-list.txt) of 838 IP:PORT combinations of DHT nodes has been made at the 3rd of July 2025 to conduct this test.
+
 ## Cloud Provider Results 3rd of July 2025
 
-[**Google Cloud**](./gcp-results-03-07-2025.txt) 0.35% success rate
+[**Google Cloud**](./test-03-7-2025/gcp-results.txt) 0.35% success rate
 
 ```
 Mainline DHT Ping
@@ -26,7 +28,7 @@ Ping:
 Success rate: 0.35%
 ```
 
-[**Hetzner**](./hetzner-results-03-07-2025.txt) 87.82% success rate
+[**Hetzner**](./test-03-7-2025/hetzner-results.txt) 87.82% success rate
 
 ```
 Mainline DHT Ping
@@ -42,7 +44,7 @@ Ping:
 Success rate: 87.82%
 ```
 
-[**Digital Ocean**](./digitalocean-03-07-2025.txt) 84.62% success rate
+[**Digital Ocean**](./test-03-7-2025/digitalocean-results.txt) 84.62% success rate
 
 ```
 Mainline DHT Ping
@@ -58,7 +60,7 @@ Ping:
 Success rate: 84.62%
 ```
 
-[**Residential Switzerland**](./localhost-results-03-07-2025.txt) 86.63% success rate
+[**Residential Switzerland**](./test-03-7-2025/localhost-results.txt) 86.63% success rate
 
 ```
 Mainline DHT Ping
@@ -74,9 +76,25 @@ Ping:
 Success rate: 86.63%
 ```
 
+[**Amazon Web Services**](./test-03-7-2025/aws-results.txt) 0.83%% success rate
+
+```
+Mainline DHT Ping
+Read 839 socket addresses
+Ping:
+- 2.123.167.163:6882 - No response
+- 37.78.65.185:6881 - No response
+...
+- 223.122.155.11:49064 - No response
+- 222.241.136.162:44903 - No response
+
+7 out of 839 socket addresses responded successfully.
+Success rate: 0.83%
+```
+
 
 ## IP List
 
-The [provided IP list](./mainline-ips-03-07-2025.txt) was created with the help of [pubky/mainline](https://github.com/pubky/mainline) on the 3rd of July 2025. Individual DHT nodes go offline ocassionally and the provided IP list may need to be refreshed after a while.
+The [provided IP list](./test-03-7-2025/ip-list.txt) was created with the help of [pubky/mainline](https://github.com/pubky/mainline) on the 3rd of July 2025. Individual DHT nodes go offline ocassionally and the provided IP list may need to be refreshed after a while.
 
 Nonetheless, the stark success rate contrast between GCP (0.35%) and the other listed cloud services (~85%) is immense.
