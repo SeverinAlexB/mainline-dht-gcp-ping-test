@@ -5,20 +5,7 @@ This repository provides the results of a ping test to a list of IP:PORT address
 [mainline-dht-ping.sh](./mainline-dht-ping.sh) is the main script to [ping](https://www.bittorrent.org/beps/bep_0005.html#ping) nodes in the mainline DHT.
 
 ```bash
-$ ./mainline-dht-ping.sh mainline-ips-03-07-2025.txt
-
-Mainline DHT Ping
-Read 838 socket addresses
-Ping:
-- 2.123.167.163:6882 - No response
-- 47.149.8.188:49049 - No response
-...
-- 221.163.162.80:33001 - Pong success
-- 222.120.148.176:33113 - Pong success
-
-726 out of 838 socket addresses responded successfully.
-Success rate: 86.63%
-
+./mainline-dht-ping.sh mainline-ips-03-07-2025.txt
 ```
 
 ## Cloud Provider Results 3rd of July 2025
