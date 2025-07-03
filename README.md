@@ -76,7 +76,7 @@ Ping:
 Success rate: 86.63%
 ```
 
-[**Amazon Web Services**](./test-03-7-2025/aws-results.txt) 0.83%% success rate
+[**Amazon Web Services**](./test-03-7-2025/aws-results.txt) 0.83% success rate
 
 ```
 Mainline DHT Ping
