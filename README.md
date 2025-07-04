@@ -12,7 +12,7 @@ A [list](./test-03-7-2025/ip-list.txt) of 838 IP:PORT combinations of DHT nodes 
 
 ## Cloud Provider Results 3rd of July 2025
 
-[**Google Cloud**](./test-03-7-2025/gcp-results.txt) 0.35% success rate
+[**Google Cloud**](./test-03-7-2025/gcp-results.txt) 0.35% success rate. Ocassionally, we get a success rate of ~23%
 
 ```
 Mainline DHT Ping
@@ -95,6 +95,6 @@ Success rate: 0.83%
 
 ## IP List
 
-The [provided IP list](./test-03-7-2025/ip-list.txt) was created with the help of [pubky/mainline](https://github.com/pubky/mainline) on the 3rd of July 2025. Individual DHT nodes go offline ocassionally and the provided IP list may need to be refreshed after a while.
+The [provided IP list](./test-03-7-2025/ip-list.txt) was created with the help of [ip-list-generator](./ip-list-generator/) on the 3rd of July 2025. Individual DHT nodes go offline ocassionally and the provided IP list may need to be refreshed after a while.
 
 Nonetheless, the stark success rate contrast between GCP (0.35%) and the other listed cloud services (~85%) is immense.
